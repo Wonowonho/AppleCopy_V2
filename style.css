@@ -1,0 +1,732 @@
+*{
+    margin:0;
+    padding:0;
+}
+@font-face {
+    font-family: MyriadPro-Regular;
+    src: url("./font/MyriadPro-Regular.otf");
+}
+@font-face {
+    font-family: MyriadPro-Light;
+    src: url("./font/MyriadPro-Light.otf");
+}
+@font-face {
+    font-family: MyriadPro-Bold;
+    src: url("./font/MyriadPro-Bold.otf");
+}
+#nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: block;
+    height: 44px;
+    width: 100%;
+    margin: 0;
+    background: rgba(45,45,45,0.98);
+    z-index: 9999;
+}
+
+#nav .nav-content {
+    display: flex;
+    justify-content: center;
+    padding: 0 22px;
+    text-align: center;
+}
+
+#nav .nav-content .nav-list {
+    display: flex;
+    justify-content: space-between;
+    height: 44px;
+    width: 1000px;
+}
+
+#nav .nav-content .nav-list li {
+    list-style: none;
+    line-height: 44px;
+    color: white; 
+    float: left;
+    padding:0 10px;
+}
+
+#nav .nav-content .nav-list li a {
+    height: 44px;
+    display: block;
+    text-decoration:none;
+    color: white; 
+    font-size: 14px;
+    font-family: MyriadPro-Light;
+}
+
+#nav .nav-content .nav-list li a:hover {
+    color: #909090;
+    transition: all 0.1s ease;
+}
+
+.homepage-section {
+    padding-top: 2.0em;
+    margin-bottom: 5px;
+}
+
+.homepage-section .iphone-promo-background {
+    background-color: #fafafa;
+    border: 0 solid #fff;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    height: 100%;
+    width: 100%;
+    padding-top: 3.0em;
+    padding-bottom: 3.1em;
+    display: block;
+    text-align: center;
+}
+
+.homepage-section .iphone-promo-background .section-content{
+    margin: 0 auto;
+    display: block;
+}
+
+.homepage-section .iphone-promo-background .section-content .headline {
+    margin: auto;
+    margin-bottom: 0.2em;
+    font-size: 32px;
+    line-height: 1.125;
+    font-weight: 600;
+    letter-spacing: .004em;
+    font-family: MyriadPro-Regular;
+}
+
+.homepage-section .iphone-promo-background .section-content .subhead {
+    font-size: 21px;
+    font-family: MyriadPro-Light;
+}
+
+.homepage-section .iphone-promo-background .section-content .cta-link {
+    font-size: 21px;
+    font-family: MyriadPro-Light;
+    margin-top: 0.65em;
+}
+
+.homepage-section .iphone-promo-background .section-content .cta-link a {
+    color: #0070c9;
+    text-decoration: none;
+}
+
+.homepage-section .iphone-promo-background .section-content .cta-link a:hover {
+    color: #0070c9;
+    text-decoration: underline;
+}
+
+.homepage-section-iphonexr{
+    margin-top: 15px;
+}
+
+.homepage-section-iphonexr .iphonexr-promo-background {
+    background-color: #fafafa;
+}
+
+.homepage-section-iphonexr .iphonexr-promo-background .section-content {
+    text-align: center;
+    display: block;
+    padding-top: 48px;
+    margin: auto;
+    margin-bottom: 0.2em;
+    font-size: 32px;
+    line-height: 1.125;
+    font-weight: 600;
+    letter-spacing: .004em;
+    font-family: MyriadPro-Regular;
+}
+
+.homepage-section-iphonexr .iphonexr-promo-background .section-content .headline .headline-image{
+    width: 200px;
+    height: auto;
+}
+
+.homepage-section-iphonexr .iphonexr-promo-background .section-content .subhead {
+    font-size: 21px;
+    font-family: MyriadPro-Light;
+    margin: 5px;
+}
+
+.homepage-section-iphonexr .iphonexr-promo-background .section-content .cta-link {
+    font-size: 21px;
+    font-family: MyriadPro-Light;
+    margin-top: 0.65em;
+}
+
+.homepage-section-iphonexr .iphonexr-promo-background .section-content .cta-link a {
+    color: #0070c9;
+    text-decoration:none;
+}
+
+.homepage-section-iphonexr .iphonexr-promo-background .section-content .cta-link a:hover {
+    color: #0070c9;
+    text-decoration: underline;
+}
+
+.homepage-section-iphonexr .iphonexr-promo-background .section-content .tailline-image {
+    width: 550px;
+    height: auto;
+}
+
+.homepage-section-iphonexs{
+    margin-top: 15px;
+}
+
+.homepage-section-iphonexs .iphonexs-promo-background {
+    background-color: #fafafa;
+}
+
+.homepage-section-iphonexs .iphonexs-promo-background .section-content {
+    text-align: center;
+    display: block;
+    padding-top: 48px;
+    margin: auto;
+    margin-bottom: 0.2em;
+    font-size: 32px;
+    line-height: 1.125;
+    font-weight: 600;
+    letter-spacing: .004em;
+    font-family: MyriadPro-Regular;
+}
+
+.homepage-section-iphonexs .iphonexs-promo-background .section-content .headline .headline-image{
+    width: 200px;
+    height: auto;
+}
+
+.homepage-section-iphonexs .iphonexs-promo-background .section-content .subhead {
+    font-size: 21px;
+    font-family: MyriadPro-Light;
+    margin: 5px;
+}
+
+.homepage-section-iphonexs .iphonexs-promo-background .section-content .cta-link {
+    font-size: 21px;
+    font-family: MyriadPro-Light;
+    margin-top: 0.65em;
+    margin-bottom: 1.65em;
+}
+
+.homepage-section-iphonexs .iphonexs-promo-background .section-content .cta-link a {
+    color: #0070c9;
+    text-decoration:none;
+}
+
+.homepage-section-iphonexs .iphonexs-promo-background .section-content .cta-link a:hover {
+    color: #0070c9;
+    text-decoration: underline;
+}
+
+.homepage-section-iphonexs .iphonexs-promo-background .section-content .tailline-image {
+    width: 800px;
+    height: auto;
+}
+
+.homepage-section-watch{
+    margin-top: 15px;
+}
+
+.homepage-section-watch .watch-promo-background {
+    background-color: #fafafa;
+}
+
+.homepage-section-watch .watch-promo-background .section-content {
+    text-align: center;
+    display: block;
+    padding-top: 48px;
+    margin: auto;
+    margin-bottom: 0.2em;
+    font-size: 32px;
+    line-height: 1.125;
+    font-weight: 600;
+    letter-spacing: .004em;
+    font-family: MyriadPro-Regular;
+}
+
+
+
+.homepage-section-watch .watch-promo-background .section-content .headline .headline-image{
+    width: 200px;
+    height: auto;
+}
+
+.homepage-section-watch .watch-promo-background .section-content .subhead {
+    font-size: 21px;
+    font-family: MyriadPro-Light;
+    margin: 5px;
+}
+
+.homepage-section-watch .watch-promo-background .section-content .cta-link {
+    font-size: 21px;
+    font-family: MyriadPro-Light;
+    margin-top: 0.65em;
+    margin-bottom: 1.65em;
+}
+
+.homepage-section-watch .watch-promo-background .section-content .cta-link a {
+    color: #0070c9;
+    text-decoration:none;
+}
+
+.homepage-section-watch .watch-promo-background .section-content .cta-link a:hover {
+    color: #0070c9;
+    text-decoration: underline;
+}
+
+.homepage-section-watch .watch-promo-background .section-content .tailline-image {
+    width: 500px;
+    height: auto;
+}
+
+.homepage-section-collection-module {
+    margin-top: 15px;
+    height: 1540px;
+}
+
+.homepage-section-collection-module .bts-promo-background {
+    text-align: center;
+    margin-left: 15px;
+    margin-bottom:  15px;
+    width: 48.5%;
+    display: flex;
+    justify-content: center;
+    background-color: #fafafa;
+    float: left;
+}
+
+.homepage-section-collection-module .bts-promo-background .section-content {
+    width: 500px;
+    height: 450px;
+    padding-top: 48px;
+    margin-bottom: 0.2em;
+    font-size: 17px;
+    line-height: 1.125;
+    font-weight: 600;
+    letter-spacing: .004em;
+    font-family: MyriadPro-Regular;
+    
+}
+
+.homepage-section-collection-module .bts-promo-background .section-content .headline {
+    margin: 5px;
+    font-size: 40px;
+}
+
+.homepage-section-collection-module .bts-promo-background .section-content .cta-link {
+    font-size: 17px;
+    font-family: MyriadPro-Light;
+    margin-top: 0.65em;
+    margin-bottom: 1.65em;
+}
+
+.homepage-section-collection-module .bts-promo-background .section-content .cta-link a {
+    color: #0070c9;
+    text-decoration:none;
+}
+
+.homepage-section-collection-module .bts-promo-background .section-content .cta-link a:hover {
+    color: #0070c9;
+    text-decoration: underline;
+}
+
+.homepage-section-collection-module .bts-promo-background .section-content .tailline-image {
+    max-width: 500px;
+    height: auto;
+}
+
+.homepage-section-collection-module .macbookair-promo-background {
+    text-align: center;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    width: 48.5%;
+    display: flex;
+    justify-content: center;
+    background-color: #fafafa;
+    float: right;
+}
+
+.homepage-section-collection-module .macbookair-promo-background .section-content {
+    width: 650px;
+    height: 450px;    
+    padding-top: 48px;
+    margin-bottom: 0.2em;
+    font-size: 17px;
+    line-height: 1.125;
+    font-weight: 600;
+    letter-spacing: .004em;
+    font-family: MyriadPro-Regular;
+    
+}
+
+
+.homepage-section-collection-module .macbookair-promo-background .section-content .headline {
+    margin: 5px;
+    font-size: 50px;
+}
+
+.homepage-section-collection-module .macbookair-promo-background .section-content .subhead {
+    margin: 5px;
+    font-family: MyriadPro-Light;
+}
+
+.homepage-section-collection-module .macbookair-promo-background .section-content .cta-link {
+    font-size: 17px;
+    font-family: MyriadPro-Light;
+    margin-top: 0.65em;
+    margin-bottom: 1.65em;
+}
+
+.homepage-section-collection-module .macbookair-promo-background .section-content .cta-link a {
+    color: #0070c9;
+    text-decoration:none;
+}
+
+.homepage-section-collection-module .macbookair-promo-background .section-content .cta-link a:hover {
+    color: #0070c9;
+    text-decoration: underline;
+}
+
+.homepage-section-collection-module .macbookair-promo-background .section-content .tailline-image {
+    padding-top:10%;
+    max-width: 650px;
+    height: auto;
+}
+
+.homepage-section-collection-module .macbookpro-promo-background {
+    text-align: center;
+    margin-left: 15px;
+    margin-bottom:  15px;
+    width: 48.5%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(18,18,24);
+    float: left;
+}
+
+.homepage-section-collection-module .macbookpro-promo-background .section-content {
+    width: 650px;
+    height: 450px;    
+    padding-top: 48px;
+    margin-bottom: 0.2em;
+    font-size: 17px;
+    line-height: 1.125;
+    font-weight: 600;
+    letter-spacing: .004em;
+    font-family: MyriadPro-Regular;
+}
+
+.homepage-section-collection-module .macbookpro-promo-background .section-content .headline {
+    margin: 5px;
+    font-size: 50px;
+    color: #fff;
+}
+
+.homepage-section-collection-module .macbookpro-promo-background .section-content .subhead {
+    margin: 5px;
+    font-family: MyriadPro-Light;
+    font-size: 20px;
+    color: #fff;
+}
+
+.homepage-section-collection-module .macbookpro-promo-background .section-content .cta-link {
+    font-size: 17px;
+    font-family: MyriadPro-Light;
+    margin-top: 0.65em;
+    margin-bottom: 1.65em;
+}
+
+.homepage-section-collection-module .macbookpro-promo-background .section-content .cta-link a {
+    color: #6bf;
+    text-decoration:none;
+}
+
+.homepage-section-collection-module .macbookpro-promo-background .section-content .cta-link a:hover {
+    color: #6bf;
+    text-decoration: underline;
+}
+
+.homepage-section-collection-module .macbookpro-promo-background .section-content .tailline-image {
+    max-width: 450px;
+    height: auto;
+}
+
+.homepage-section-collection-module .arcade-promo-background {
+    position: relative;
+    text-align: center;
+    margin-right: 15px;
+    margin-bottom:  15px;
+    width: 48.5%;
+    display: flex;
+    justify-content: center;
+    background-image: url(./images/arcade.png);
+    height: 500px;
+    background-size: cover;
+    float: right;
+}
+
+.homepage-section-collection-module .arcade-promo-background .section-content {
+    width: 650px;
+    height: 450px;    
+    padding-top: 48px;
+    margin-bottom: 0.2em;
+    font-size: 17px;
+    line-height: 1.125;
+    font-weight: 600;
+    letter-spacing: .004em;
+    font-family: MyriadPro-Regular;
+}
+
+.homepage-section-collection-module .arcade-promo-background .section-content .headline-image {
+    width: 150px;
+}
+
+.homepage-section-collection-module .arcade-promo-background .section-content .headline {
+    padding-top: 5px;
+    margin: 5px;
+    font-family: MyriadPro-Light;
+    font-size: 20px;
+    color: #fff;
+}
+
+.homepage-section-collection-module .arcade-promo-background .section-content .subhead {
+    margin: 5px;
+    font-family: MyriadPro-Light;
+    font-size: 20px;
+    color: #fff;
+}
+
+.homepage-section-collection-module .arcade-promo-background .section-content .cta-link {
+    font-size: 17px;
+    font-family: MyriadPro-Light;
+    margin-top: 0.65em;
+    margin-bottom: 1.65em;
+}
+
+.homepage-section-collection-module .arcade-promo-background .section-content .cta-link a {
+    color: #fff;
+    text-decoration:none;
+}
+
+.homepage-section-collection-module .arcade-promo-background .section-content .cta-link a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.homepage-section-collection-module .applecard-promo-background {
+    position: relative;
+    text-align: center;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    width: 48.5%;
+    display: flex;
+    justify-content: center;
+    background-image: url(./images/applecard.png);
+    height: 500px;
+    background-size: cover;
+    float: left;
+}
+
+.homepage-section-collection-module .applecard-promo-background .section-content {
+    width: 650px;
+    height: 450px;    
+    padding-top: 48px;
+    margin-bottom: 0.2em;
+    font-size: 17px;
+    line-height: 1.125;
+    font-weight: 600;
+    letter-spacing: .004em;
+    font-family: MyriadPro-Regular;
+}
+
+.homepage-section-collection-module .applecard-promo-background .section-content .headline {
+    padding-top: 5px;
+    margin: 5px;
+    font-family: MyriadPro-Light;
+    font-size: 20px;
+    color: #333;
+}
+
+.homepage-section-collection-module .applecard-promo-background .section-content .subhead {
+    margin: 5px;
+    font-family: MyriadPro-Light;
+    font-size: 20px;
+    color: #333;
+}
+
+.homepage-section-collection-module .applecard-promo-background .section-content .cta-link {
+    font-size: 17px;
+    font-family: MyriadPro-Light;
+    margin-top: 0.65em;
+    margin-bottom: 1.65em;
+}
+
+.homepage-section-collection-module .applecard-promo-background .section-content .cta-link a {
+    color: #0070c9;
+    text-decoration:none;
+}
+
+.homepage-section-collection-module .applecard-promo-background .section-content .cta-link a:hover {
+    color: #0070c9;
+    text-decoration: underline;
+}
+
+.homepage-section-collection-module .airpods-promo-background {
+    position: relative;
+    text-align: center;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    width: 48.5%;
+    display: flex;
+    justify-content: center;
+    background-image: url(./images/airpods.png);
+    height: 500px;
+    background-size: cover;
+    float: right;
+}
+
+.homepage-section-collection-module .airpods-promo-background .section-content {
+    width: 650px;
+    height: 450px;    
+    padding-top: 188px;
+    margin-bottom: 0.2em;
+    font-size: 17px;
+    line-height: 1.125;
+    font-weight: 600;
+    letter-spacing: .004em;
+    font-family: MyriadPro-Regular;
+}
+
+.homepage-section-collection-module .airpods-promo-background .section-content .headline {
+    padding-top: 5px;
+    margin: 5px;
+    font-family: MyriadPro-Regular;
+    font-size: 60px;
+    color: #fff;
+}
+
+.homepage-section-collection-module .airpods-promo-background .section-content .subhead {
+    margin: 5px;
+    font-family: MyriadPro-Light;
+    font-size: 20px;
+    color: #fff;
+}
+
+.homepage-section-collection-module .airpods-promo-background .section-content .cta-link {
+    font-size: 17px;
+    font-family: MyriadPro-Light;
+    margin-top: 0.65em;
+    margin-bottom: 1.65em;
+}
+
+.homepage-section-collection-module .airpods-promo-background .section-content .cta-link a {
+    color: #fff;
+    text-decoration:none;
+}
+
+.homepage-section-collection-module .airpods-promo-background .section-content .cta-link a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+#footer {
+    padding-top: 15px;
+    float: left;
+    background-color: rgb(242,242,242);
+    display: flex;
+    justify-content: center;
+}
+
+#footer div {
+    width: 70%;
+}
+
+#footer div ul .text {
+    list-style: none;
+    font-size: 13px;
+    line-height: 17px;
+    font-family: MyriadPro-Light;
+    color: #888888;
+    padding-bottom: 15px;
+}
+
+#footer div ul .lastment {
+    letter-spacing: 1px;
+    padding-top: 3%;
+    color: #888888;
+    font-size: 12px;
+    font-family: MyriadPro-Light;
+    padding-bottom: 1%
+}
+
+#footer div ul .lastment .ment {
+    color: #0070C9;
+    text-decoration: none;
+}
+
+#footer div ul .lastment .ment:hover {
+    text-decoration: underline;
+}
+
+#footer div ul .lastment2 {
+    padding-top: 1%;
+    padding-bottom: 3%;
+    font-size: 12px;
+    color: #888888;
+    font-family: MyriadPro-Light;
+}
+
+#footer .directory-column-5-section {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer .directory-column-5-section .directory-column-section {
+    text-align: left;
+}
+
+#footer .directory-column-5-section .directory-column-section .headline {
+    font-size: 12px;
+    font-family: MyriadPro-Regular;
+    padding-top: 20px;
+}
+
+#footer .directory-column-5-section .directory-column-section  .directory-column-section-item {
+    list-style: none;
+    margin-top: 5px;
+}
+
+#footer .directory-column-5-section .directory-column-section  .directory-column-section-item .directory-column-section-item-link {
+    color: #888888;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: MyriadPro-Light;
+}
+
+#footer .directory-column-5-section .directory-column-section  .directory-column-section-item .directory-column-section-item-link:hover {
+    text-decoration: underline;
+}
+
+#footer .footer-legal-link {
+    display: flex;
+    justify-content: space-between;
+    float: right;
+}
+
+#footer .footer-legal-link .link {
+    font-size: 12px;
+    font-family: MyriadPro-Light;
+    color: #333;
+    text-decoration: none;
+}
+
+#footer .footer-legal-link .link:hover {
+    text-decoration: underline;
+}
+
+body {
+    background-color: #fff;
+    color: #333;
+}
